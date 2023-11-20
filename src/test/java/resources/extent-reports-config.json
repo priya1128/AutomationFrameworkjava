@@ -1,0 +1,12 @@
+{
+  "theme": "STANDARD",
+  "encoding": "utf-8",
+  "protocol": "HTTPS",
+  "timelineEnabled": false,
+  "offlineMode": true,
+  "thumbnailForBase64": false,
+  "documentTitle": "FAxO-Automation-Report: PSCR-QA",
+  "reportName": "ExtentReports",
+  "timeStampFormat": "dd-MM-YYYY hh:mm:ss",
+  "css": ".badge{font-size:100%}"
+}

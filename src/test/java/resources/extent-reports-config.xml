@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+
+        <!-- report theme -->
+        <!-- STANDARD, DARK -->
+        <theme>DARK</theme>
+
+        <!-- document encoding -->
+        <!-- defaults to UTF-8 -->
+        <encoding>UTF-8</encoding>
+
+        <!-- protocol for script and stylesheets -->
+        <!-- defaults to https -->
+        <!-- HTTP, HTTPS -->
+        <protocol>HTTPS</protocol>
+
+        <!-- offline report -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- offline report -->
+        <enableOfflineMode>false</enableOfflineMode>
+
+        <!-- use thumbnails for base64 images -->
+        <!-- this may slowdown viewing tests -->
+        <thumbnailForBase64>true</thumbnailForBase64>
+
+        <!-- title of the document -->
+        <documentTitle>FAxO-Automation-Report: PSCR-QA></documentTitle>
+
+        <!-- report name - displayed at top-nav -->
+        <reportName>FAxO-Automation-Report: PSCR-QA</reportName>
+
+        <!-- font size - 100% -->
+        <css>.badge-primary{font-weight:700;font-size:120%;}
+            .badge.badge-success{font-weight:600;font-size:110%;}
+            .badge.badge-danger{font-weight:600;font-size:110%;}
+            .badge.badge-default{font-weight:600;font-size:110%;}
+            .badge.log{padding:5px 10px;letter-spacing:0.3px}
+            .badge.pass-bg.log.float-right{font-weight:700;font-size:110%;}
+            .badge.fail-bg.log.float-right{font-weight:700;font-size:110%;}
+            .badge.log.pass-bg{font-weight:600;font-size:100%;}
+            .badge.log.fail-bg{font-weight:600;font-size:100%;}
+            .pass-bg{background-color:#416d3e;padding:5px 10px;}
+            .fail-bg{background-color:#FF6962;padding:5px 10px;}
+            .badge-success{background-color:#3986A6;padding:5px 10px;}
+            .badge-danger{background-color:#CB6D51;padding:5px 10px;}
+            .badge.white-text.green{font-weight:500;font-size:110%;}
+            .badge.white-text.red{font-weight:500;font-size:110%;}
+            canvas#parent-analysis.chartjs-render-monitor{height:190px;width:531px;}
+        </css>
+
+        <!-- timestamp format -->
+        <timeStampFormat>dd-MM-YYYY hh:mm:ss</timeStampFormat>
+
+        <!-- custom javascript -->
+        <scripts>
+            <![CDATA[
+        $(document).ready(function() {
+
+        });
+      ]]>
+        </scripts>
+
+        <!-- custom styles -->
+        <styles>
+            <![CDATA[
+
+      ]]>
+        </styles>
+
+    </configuration>
+</extentreports>

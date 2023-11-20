@@ -1,0 +1,16 @@
+
+
+<suite name="PSCR_QA">
+
+    <listeners>
+        <listener class-name="base.Listener" />
+    </listeners>
+
+    <parameter name="browserType" value="chrome"/>
+    <test name="Planner">
+        <classes>
+            <class name="tests.loginTest"/>
+        </classes>
+    </test>
+
+</suite>
